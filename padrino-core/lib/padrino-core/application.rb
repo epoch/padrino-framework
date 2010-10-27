@@ -8,7 +8,7 @@ module Padrino
   #
   class Application < Sinatra::Application
     register Padrino::Routing   # Support for advanced routing, controllers, url_for
-    register Padrino::Rendering # Support for enhanced rendering with template detection
+#    register Padrino::Rendering # Support for enhanced rendering with template detection
 
     class << self
 
